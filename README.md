@@ -18,8 +18,8 @@ Bash Script
   – A good starting point might be to get machine specs, but if you can, go on to extract
   information on running processes and more.
 
-c program
-  – Your group needs to hide some sensitive information from competitors. Some secret manifesto.
+C program
+  3. Your group needs to hide some sensitive information from competitors. Some secret manifesto.
   – Write a program in C that asks for a password and then, if the password is correct, displays
   this sensitive information.
 
