@@ -1,12 +1,13 @@
 # Gone-Phishing-scripts-and-stuff
-task's that need doing:
-python Script
+#task's that need doing
 
-  1. Get a hold of the big list of MAC address vendors that comes with WireShark. Find it on the
-  PC or on-line.
-  – If you don’t know what a MAC address is, ask or google it.
-  – Write a program in Python that accepts a partial MAC address and then uses this list to
-  identify the vendor.
+#python Script
+
+ # 1. Get a hold of the big list of MAC address vendors that comes with WireShark. Find it on the
+  #PC or on-line.
+  #– If you don’t know what a MAC address is, ask or google it.
+ # – Write a program in Python that accepts a partial MAC address and then uses this list to
+  #identify the vendor.
 
 Bash Script
   2. The directories /proc and /dev contain useful information about running processes, the machine
