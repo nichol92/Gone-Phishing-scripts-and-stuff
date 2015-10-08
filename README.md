@@ -1,12 +1,14 @@
 # Gone-Phishing-scripts-and-stuff
 task's that need doing:
-python Script;
+python Script
+
   1. Get a hold of the big list of MAC address vendors that comes with WireShark. Find it on the
   PC or on-line.
   – If you don’t know what a MAC address is, ask or google it.
   – Write a program in Python that accepts a partial MAC address and then uses this list to
   identify the vendor.
-Bash Script;
+
+Bash Script
   2. The directories /proc and /dev contain useful information about running processes, the machine
   you’re using and more.
   – Write a program in Bash script that looks in these directories and presents easy-to read
@@ -15,6 +17,7 @@ Bash Script;
   forensic investigation.
   – A good starting point might be to get machine specs, but if you can, go on to extract
   information on running processes and more.
+
 c program
   – Your group needs to hide some sensitive information from competitors. Some secret manifesto.
   – Write a program in C that asks for a password and then, if the password is correct, displays
