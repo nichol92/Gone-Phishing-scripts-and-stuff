@@ -1,6 +1,7 @@
 import re # Import Regular Expression library
 import threading # Multi-Threading increases the speed of execution
 import sys # Import sys to allow for more user friendly exit (doesn't close window)
+# The following code searches the 
 def check(addressString, MAC_Address):
             if addressString in MAC_Address:
                 print(MAC_Address)
@@ -8,7 +9,7 @@ def check(addressString, MAC_Address):
                     if __name__ == '__main__':
                         main() # run the main code again
                 else:
-                    sys.exit(0) # end the script
+                    sys.exit(0) # end the script                   
 def main():
     # Asks user for MAC address and variable 'addressString' is set to what the user enters
     addressString = input("Please type the first 6 characters of your MAC address like XX:XX:XX ")
