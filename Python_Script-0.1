@@ -1,0 +1,9 @@
+import re
+
+dictionary = {}
+
+string = input("Please type your MAC address: ")
+if re.match("[0-9a-f]{2}([-:])[0-9a-f]{2}([-:])[0-9a-f]{2}$", string):
+    print("match")
+else:
+    print("no match")
