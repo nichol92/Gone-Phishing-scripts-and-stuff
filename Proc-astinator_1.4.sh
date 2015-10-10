@@ -14,6 +14,7 @@ help)
 	echo "sys [returns infotmation on the OS version, filesystems, partitions]" 
 	echo "hardw [returns information on the Cpu,  ioports, primary memory and pci devices]" 
 	echo "pm [returns a list of all the currently running process with there PID, name and state] "
+	echo "close [ends the script]"
 	options
 	;;
 sys)
@@ -25,7 +26,7 @@ hardw)
 pm)
 	primary_mem
 	;;
-exit)
+close)
 	exit
 	;;
 
@@ -33,6 +34,7 @@ esac
 echo "sys [returns infotmation on the OS version, filesystems, partitions]" 
 echo "hardw [returns information on the Cpu,  ioports, primary memory and pci devices]" 
 echo "pm [returns a list of all the currently running process with there PID, name and state] "
+echo "close [ends the script]"
 options
 }
 
@@ -58,7 +60,7 @@ done
 echo ""
 
 echo "======================================"
-echo "------Thats everything here--:)-------"
+echo "------Thats-everything-here--:)-------"
 echo "======================================"
 options
 
@@ -68,7 +70,7 @@ function hardw_info
 echo "*-------Hardware-information---------*"
 echo ""
 echo "======================================"
-echo "-------CPU information----------------"
+echo "-------CPU-information----------------"
 echo "======================================"
 echo ""
 cat cpuinfo
@@ -76,27 +78,27 @@ echo '------average load of the cpu---------'
 echo ""
 cat loadavg
 echo "======================================"
-echo "---------Connected Devices------------"
+echo "---------Connected-Devices------------"
 echo "======================================"
 echo ""
 cat devices
 echo "======================================"
-echo "---------i/o ports--------------------"
+echo "---------i/o-ports--------------------"
 echo "======================================"
 echo ""
 cat ioports
 echo "======================================"
-echo "---------memory information-----------"
+echo "---------memory-information-----------"
 echo "======================================"
 echo ""
 cat meminfo
 echo "======================================"
-echo "--------pci information---------------"
+echo "--------i/o-memory-ranges-------------"
 echo "======================================"
 echo ""
-cat pci
+cat iomem
 echo "======================================"
-echo "------Thats everything here--:)-------"
+echo "------Thats-everything-here--:)-------"
 echo "======================================"
 options
 
@@ -135,6 +137,5 @@ echo "======================================"
 echo '[*] Type "help" for a list of commands'
 
 proc # runs this function
-
 
 
