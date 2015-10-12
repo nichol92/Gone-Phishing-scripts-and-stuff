@@ -97,13 +97,13 @@ echo "======================================"
 echo "---------Connected-Devices------------"
 echo "======================================"
 echo ""
-cat devices# retrieves all the information from the devices file in proc
+cat devices # retrieves all the information from the devices file in proc
 
 echo "======================================"
 echo "---------i/o-ports--------------------"
 echo "======================================"
 echo ""
-cat ioports# retrieves all the information from the ioports file in proc
+cat ioports # retrieves all the information from the ioports file in proc
 echo "======================================"
 echo "---------memory-information-----------"
 echo "======================================"
