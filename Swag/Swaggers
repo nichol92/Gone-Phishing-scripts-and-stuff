@@ -1,0 +1,10 @@
+#! /bin/bash
+function  Swaggers
+{
+read input
+gizoogle "$input" | cowsay -f Swaggers.cow
+Swaggers
+}
+Swaggers
+
+
