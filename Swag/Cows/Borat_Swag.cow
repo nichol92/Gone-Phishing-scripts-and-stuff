@@ -1,0 +1,66 @@
+##
+## Borat the Swaglord wants a lemonparty
+##
+$the_cow = <<EOC;
+     $thoughts
+      $thoughts                                                                                                                       
+                                                                                                                        
+                                                        `                                                               
+                                                  `.`./oyhyyoso:````                                                    
+                                               .+smNdmmdmNNNNNmhsyh+:`                                                  
+                                            :yhdNmNMNNNNmMNNmNNNNmmmd+.                                                 
+                                         `.oNNNNNNNMMMMMMMMMNNMMNNNNMNh/.`                                              
+                                       ./ymNNmMMMMMMMMMMMMMMMMMMMMMMMMmhys:`                                            
+                                    `:+hdmNNMMMMMMMMMMMMMMMMMMMMMMMMMMNddds/.`                                          
+                                   `ymhNNNNMNNNMMMMMMMMMMMNMNMMMMMMMMMMNMMNNmd+`                                        
+                                  `+mNNMNMNMMMNNMMMNMNMMNMNMMMMNNNNNMMMMMMMMMMm+`                                       
+                                 `oNMMMMNNMNNMNNNMNMMNMMMMMMMNMMNNNNNNMMmMMMMMMNy`                                      
+                                 -mNMNMMMMMMMNmmNMNMMMMMMMMMMMMMMMMMdhmNdmMMMMMMms                                      
+                                 /mmMNNNNNNNNNNNMNNMMMMMMMMMMMMMMMMMmddhhNMMMMMMNd`                                     
+                                 -mmMMMMMNNMMMNMMMNNMMNNNNNNNMMMMMMMNNNNmmMMMMMMNo                                      
+                                  :+dMMMMNMMNMMMMNhoosymNNNNNNmNmNMMMNMMMNNMMMMNh.                                      
+                                   `odNMMMNMNMNNmo.`-/:::::::-:oyyhNmNMMMMMMMNmh:                                       
+                                    :dmNNNNMMMMNo``::`          -ysydNMMMMMNNdy/`                                       
+                                    `odNNNdNMMMd:.::             :hshNMMMMNNd+`            ```                          
+                                     `/ymNmmNNNmddmho-           `hohNMMNmdh+`           `..--                          
+                                       `-sddmNNyohyhdy           :s+yNNmho+-             ..---                          
+                                       `+/.`/yd/-+               shhdNNo-``             ...--`                          
+            `--..`                     .-::---+/+/.`            .hmmmmmmh+`            `...-.                           
+            `:+//:.`                 `::`  ````` `-:/`          ---/..`./yd:           `../+:::-/.                      
+              .//:::.               `+`  .+shmmho.  `+`     `.::::::--:-` -y/         `::-`     -o``                    
+                -/:::-`             ::   dmdmNMMMN.  `o    -/.   ```   .:/. :`       -+`  `.-:://--:/                   
+              `.-:+++++:.           `o`  oNNMMMMMd`  `o   +-   :oyhdho.   /-         o``:/:-`       o                   
+             /:..-`    .:/:.         .+`  ./osyo:   .o`   o   :NNNNMMMN-   o         o:+.     `.`-::y.                  
+             s`````````````s          `/:-.`    `./:-     /-  `hMMMMMMN-   o`        .s````::::/:.   o`                 
+           :::-::::::::::/+y             `.-:ohds.         /:   -+sso/`   /-          .s/:-`      .:+/                  
+           s`   ``       ``y`           `.`  +hd/           .+:-.     `-:/.           `s`   .:::::-`/-                  
+           -+:///+/:::/:::.s`       :ydmNNNmmNMMNmmdho++oososyoNNNo:::-`               .s:::-`     :+                   
+            y``        ```/h`    `/hMMMMMMMMMMMMMMMMMMMMMMMMMNMMMMmdyyssyhhhy+.         o-     `-/y:                    
+            :o/:/+:/::/::-.s`  `+mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNd+`    ` `/::::/:../                     
+             .o``  ``````.-y`  :NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd.   ..` `````.:/                      
+              ./::::/:---:-y`  -NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMMMMMMMMMMMMMMMMM:    ::-...-://:.                     
+                ``````````-:.   .:o/mMMMMNNdhdNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+    .//:---:///-                     
+                  -.`````.:/y-      `-+so.```-hsy:+hhoodmMMMhoommdMMMMMMMMMMMMMMMN-     ://--:::/+:                     
+                 `o/++///+ohNh             ``.y+: .s+. ``.--`  yh+-:/dhdssyhsdNMNo      -//:.--:/++                     
+                  yhyss++omNMm            ````s+-``o/-         +h+   o/s``````--.       `:+/---::/o.                    
+                  `+mNNNNNMNmo           ```  so.` o+-         :s+`  o/o.```````        `:+/:--///o:                    
+                    sydmdyssso`          `    +s.. /s:`        :+/`  +++-    ````       `:+/:--/+/++                    
+                    oooo+//+oo/        ``    `-h:. `s+.`       -:/   /o/-      ```      `/+/:--:++/o-                   
+                    /soo++++oos:      ``   ``..h+.` .y+-`     `.:-   :y++```            .//::--:///+o                   
+                    :ssso++++ooo-    `` ``..-::sy.`  `os+-..-://.    -ho+-..````     `` -//::--:///+s-                  
+                    -ssso++++o++o. `````.--:///+d:.    .://+/:-`     .ds+::--....```````//::---:::/+so                  
+                    -ssooo++/+++oo-```.-:://////ys.`                 -hs+/::-----.....`.//::----:::+ss-                 
+                    .ssooo+++//++oo/..-:///////+oh/.                 -so/++/:---------.:/:::-:---:/+oo+                 
+                     +ssoo++++//++oo+:-:://+++++oyy.`                -++//++/::--------/::::----:::/oso                 
+                     -ssoooo++//++++oo:://++++++ooyo.`              `-/+//////:::---:::+::::----:::/+so                 
+                     `ossooo+++++++++o/-/+++++ooo+.os-.            `.-:.-://///::::::://:::::--::::/+o+                 
+                      -osoo++o+++++++oso++o++ooo:`  /y+-``      ```.--`   .:////:::::://:::::::::::/+o/                 
+                       /sso+++++++++++sys+o++oo.     .+yo/-....---:-`       .://::::::/+/:::::::::/++o/                 
+                       `+ooo+++++++++ooyso++o+.        `-:/::::-.`            `-/::::/++//:::::::://+o/                 
+                        `+oo+++++++++oossooo/`                                   .:/:/++///::::::://+o:                 
+                         .ooo++++++++oosooo-                                       .:/+///::/::::://+o`                 
+                          -ooo+++++oooooo/`                                          ./+//::::://///+-                  
+                           -++++++oooo+:.                                              .:://////:::/:                   
+                             -/////-.                                                    `.-----...`                    
+                                                                                                                        
+EOC
