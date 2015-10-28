@@ -1,0 +1,37 @@
+
+For the ALL project we have all agreed on making a "honeypot", this file is where we will list all the
+required tasks that need doing in order to complete the project by the deadline.
+
+i am naming this project: Operation Fishing Rod (OFR)
+
+task 1: the bait
+the first task is researching what exactly a hacker would want to steal from a company server and then developing a way
+to make our script look like that data/program. this program/data  will need to give us enough time succsessfully
+exploit are way into the hackers machine and "wreck havoc"
+
+task 2: the hook
+we will need this code to use more than one exploit based on what what OS  they are using
+and other things like Services and user privilages. the end goal of these exploits is to drop a shell on the 
+"victim" PC and then do something "interesting" that proves the concept.
+
+task 3: the dsiguise
+one of the other important factors of this program is that it avoids some antivirus protetcion and cant be exploited by 
+commands like strings and ltrace, essentially we need to convince the hacker the only way he is getting access to 
+are info is by downloading and running this program and that the program is definatley not malicious in anyway
+
+task 4: the setup 
+as you all know we are running this on are beaglebones, has of this point i think we will be using one beaglebone
+has our vunerable server and another beagle bone has are listener (to pickup the shell when it has been launched on
+the victim machine). a little extension to this project could be to the make beagle bone look like a company PC to make
+are "bait" network more belevable. i think this task will be allocated to who ever is working on task 2 since it 
+reuires that the server is setup before you can start testing vunlerabilities and stuff.
+
+Conclusion: 
+i know this seems like alot of work right now but im sure well be able to get it done quickly 
+obviously i am only one member of are group so you are allowed to contribute to this brief (please do) and change things
+if you feel it would be an improvment. i will also ask that all code is written in functions so that it can be
+put together easier. we are going to use python for this task, try to keep your code well annotated since everyone
+needs to know what it does. we are also excpected to do a presentation on this so please dont just copy and
+paste code without being able to explain it first. 
+
+
