@@ -1,0 +1,10 @@
+#!/bin/excpect -f
+set timeout 20
+spawn telnet 192.168.7.2
+expect "login:"
+send "net_user\r"
+expect "Password:"
+send "121033333301xs\r"
+interact timeout 2 {
+	exit
+	}
