@@ -1,0 +1,5 @@
+# FINDING THE LOCATION FROM THE VICTIM'S IP ADDRESS
+Once we have obtained the victim's IP address by using the reverse shell, we are able to find the geographical location
+of that person, through the following code.. " curl ipinfo.io/'IP Address' "
+
+WORKING IN PROGRESS..
